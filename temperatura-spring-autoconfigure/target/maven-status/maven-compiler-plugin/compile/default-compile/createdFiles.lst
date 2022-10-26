@@ -1,0 +1,4 @@
+com\nttdata\bootcamp\autoconfigure\ProyectoPruebasApplication.class
+com\nttdata\bootcamp\autoconfigure\temperatura\TemperaturaAutoconfigure.class
+META-INF\spring-configuration-metadata.json
+com\nttdata\bootcamp\autoconfigure\temperatura\TemperaturaProperties.class

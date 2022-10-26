@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.custom-end-point",
+      "type": "com.nttdata.bootcamp.temperaturaServer.ActuatorExample",
+      "sourceType": "com.nttdata.bootcamp.temperaturaServer.ActuatorExample"
+    },
+    {
+      "name": "management.endpoint.estados",
+      "type": "com.nttdata.bootcamp.temperaturaServer.ActuatorEstadoController",
+      "sourceType": "com.nttdata.bootcamp.temperaturaServer.ActuatorEstadoController"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.custom-end-point.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the customEndPoint endpoint.",
+      "sourceType": "com.nttdata.bootcamp.temperaturaServer.ActuatorExample",
+      "defaultValue": true
+    },
+    {
+      "name": "management.endpoint.estados.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.nttdata.bootcamp.temperaturaServer.ActuatorEstadoController",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.estados.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the estados endpoint.",
+      "sourceType": "com.nttdata.bootcamp.temperaturaServer.ActuatorEstadoController",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

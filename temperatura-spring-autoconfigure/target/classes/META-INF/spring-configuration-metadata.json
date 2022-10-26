@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "temperatura.medida",
+      "type": "com.nttdata.bootcamp.autoconfigure.temperatura.TemperaturaProperties",
+      "sourceType": "com.nttdata.bootcamp.autoconfigure.temperatura.TemperaturaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "temperatura.medida.temperatura",
+      "type": "java.lang.String",
+      "sourceType": "com.nttdata.bootcamp.autoconfigure.temperatura.TemperaturaProperties",
+      "defaultValue": "Celsius"
+    }
+  ],
+  "hints": []
+}
