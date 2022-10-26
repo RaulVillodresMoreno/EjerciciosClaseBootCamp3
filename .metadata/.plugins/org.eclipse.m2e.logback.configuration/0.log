@@ -1,0 +1,800 @@
+2022-10-26 08:34:19,062 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-26 08:38:03,314 [Worker-13: Creating project "saludo-spring-autoconfigure"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 08:38:03,722 [Worker-13: Creating project "saludo-spring-autoconfigure"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/main/java
+2022-10-26 08:38:03,724 [Worker-13: Creating project "saludo-spring-autoconfigure"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 08:38:03,725 [Worker-13: Creating project "saludo-spring-autoconfigure"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/test/java
+2022-10-26 08:38:03,725 [Worker-13: Creating project "saludo-spring-autoconfigure"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/test/resources
+2022-10-26 08:38:04,371 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 08:38:04,375 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:04,377 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 08:38:04,379 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:35,365 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 08:38:35,387 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.nttdata.bootcamp:saludo-idioma:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2022-10-26 08:38:35,675 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:38:35,675 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:38:35,677 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:35,678 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:35,681 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:38:35,682 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:38:35,682 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:36,566 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.7.4/spring-boot-configuration-processor-2.7.4-sources.jar
+2022-10-26 08:38:36,606 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.7.4/spring-boot-configuration-processor-2.7.4-sources.jar
+2022-10-26 08:38:36,612 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:2.7.4
+2022-10-26 08:38:36,624 [Worker-31: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.nttdata.bootcamp:saludo-idioma:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2022-10-26 08:38:37,057 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:38:37,057 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:38:37,057 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:37,058 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:37,060 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:38:37,060 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:38:37,060 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:51,604 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 08:38:51,620 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.nttdata.bootcamp:libreria:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2022-10-26 08:38:51,823 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:38:51,823 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:38:51,825 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:51,825 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:51,828 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:38:51,829 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:38:51,829 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:38:52,724 [Worker-6: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.nttdata.bootcamp:libreria:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.nttdata.bootcamp:libreria:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2022-10-26 08:40:13,766 [Worker-29: Creating project "saludo-idioma"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\pom.xml.
+2022-10-26 08:40:13,925 [Worker-29: Creating project "saludo-idioma"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/main/java
+2022-10-26 08:40:13,925 [Worker-29: Creating project "saludo-idioma"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 08:40:13,926 [Worker-29: Creating project "saludo-idioma"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/test/java
+2022-10-26 08:40:13,926 [Worker-29: Creating project "saludo-idioma"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/test/resources
+2022-10-26 08:40:14,148 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 08:40:14,150 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:40:14,153 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 08:40:14,154 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:40:36,033 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\pom.xml.
+2022-10-26 08:40:36,061 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:40:36,061 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:40:36,062 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:40:36,062 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:40:36,064 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:40:36,064 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:40:36,064 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:51,458 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:42:51,458 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:42:51,460 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:51,460 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:51,463 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:42:51,463 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:42:51,463 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:52,527 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:42:52,527 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:42:52,528 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:52,528 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:52,531 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:42:52,531 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:42:52,532 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:52,539 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:42:52,540 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:42:52,540 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:52,540 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:42:52,542 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:42:52,543 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:42:52,543 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:02,747 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:02,747 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:02,748 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:02,748 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:02,751 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:02,751 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:02,751 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:04,981 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:04,981 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:04,982 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:04,982 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:04,984 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:04,984 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:04,985 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:56,707 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-26 08:43:57,050 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\pom.xml.
+2022-10-26 08:43:57,083 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 08:43:57,095 [Worker-31: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.nttdata.bootcamp:libreria:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2022-10-26 08:43:57,306 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/main/java
+2022-10-26 08:43:57,306 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 08:43:57,311 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 08:43:57,316 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/test/java
+2022-10-26 08:43:57,316 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/test/resources
+2022-10-26 08:43:57,375 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/main/java
+2022-10-26 08:43:57,375 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 08:43:57,379 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 08:43:57,383 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/test/java
+2022-10-26 08:43:57,384 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/test/resources
+2022-10-26 08:43:57,571 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-26 08:43:57,741 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:57,741 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:57,742 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:57,742 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:57,745 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:57,745 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:57,745 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:58,049 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:58,050 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:58,050 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:58,050 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:58,052 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:43:58,052 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:43:58,053 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:43:58,166 [Worker-31: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.nttdata.bootcamp:libreria:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.nttdata.bootcamp:libreria:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2022-10-26 08:44:08,801 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 08:44:08,859 [Worker-35: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 08:44:08,914 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:44:08,914 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:44:08,916 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:44:08,916 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:44:08,918 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:44:08,918 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:44:08,918 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:44:10,073 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:44:10,073 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:44:10,074 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:44:10,074 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:44:10,076 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:44:10,076 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:44:10,076 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:46:43,200 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:46:43,200 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:46:43,201 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:46:43,201 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:46:43,204 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:46:43,204 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:46:43,204 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:49:11,424 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:49:11,424 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:49:11,425 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:49:11,425 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:49:11,427 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:49:11,427 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:49:11,427 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:49:21,196 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:49:21,196 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:49:21,196 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:49:21,197 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:49:21,199 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:49:21,199 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:49:21,199 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:50:17,026 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:50:17,026 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:50:17,026 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:50:17,027 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:50:17,029 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:50:17,029 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:50:17,030 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:50:51,664 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:50:51,664 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:50:51,665 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:50:51,666 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:50:51,668 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:50:51,668 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:50:51,668 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:51:16,950 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:51:16,951 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:51:16,951 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:51:16,951 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:51:16,953 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:51:16,953 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:51:16,953 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:51:49,147 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:51:49,148 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:51:49,148 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:51:49,149 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:51:49,152 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:51:49,152 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:51:49,153 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:16,204 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:16,205 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:16,205 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:16,205 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:16,207 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:16,207 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:16,207 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:25,643 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:25,643 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:25,643 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:25,644 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 08:53:25,650 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:25,651 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:25,651 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:35,651 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:35,651 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:35,651 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:35,651 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:35,654 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:35,654 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:35,654 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:42,653 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:42,653 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:42,653 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:42,653 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:53:42,655 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:53:42,655 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:53:42,655 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:54:26,100 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:54:26,100 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:54:26,101 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:54:26,101 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 08:54:26,106 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:54:26,107 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:54:26,107 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:58:08,060 [Worker-40: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure
+2022-10-26 08:58:08,062 [Worker-40: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2022-10-26 08:58:08,063 [Worker-40: Launching New_configuration] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 08:58:08,134 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:58:08,134 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:58:08,135 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:58:08,135 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:58:08,137 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:58:08,137 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:58:08,138 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:58:08,162 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:58:08,162 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:58:08,163 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:58:08,164 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 08:58:08,166 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:58:08,166 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:58:08,166 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:59:20,658 [Worker-41: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\pom.xml.
+2022-10-26 08:59:20,694 [Worker-41: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 08:59:20,754 [Worker-41: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 08:59:21,629 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:59:21,629 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:59:21,631 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:59:21,631 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:59:21,633 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:59:21,633 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:59:21,634 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:59:21,642 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:59:21,642 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:59:21,642 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:59:21,642 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 08:59:21,644 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 08:59:21,644 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 08:59:21,644 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:00:01,316 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-26 09:00:01,622 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\pom.xml.
+2022-10-26 09:00:01,652 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:00:01,708 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:00:01,895 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/main/java
+2022-10-26 09:00:01,895 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:00:01,895 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:00:01,895 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/test/java
+2022-10-26 09:00:01,896 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/test/resources
+2022-10-26 09:00:01,919 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/main/java
+2022-10-26 09:00:01,919 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 09:00:01,920 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 09:00:01,920 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/test/java
+2022-10-26 09:00:01,921 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/test/resources
+2022-10-26 09:00:02,028 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-26 09:00:02,202 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:00:02,202 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:00:02,203 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:00:02,203 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:00:02,206 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:00:02,206 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:00:02,206 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:00:02,629 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:00:02,630 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:00:02,630 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:00:02,630 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:00:02,641 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:00:02,641 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:00:02,641 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:21,343 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-26 09:04:21,630 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\pom.xml.
+2022-10-26 09:04:21,655 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:04:21,704 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:04:21,889 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/main/java
+2022-10-26 09:04:21,889 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:04:21,889 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:04:21,890 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/test/java
+2022-10-26 09:04:21,890 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/test/resources
+2022-10-26 09:04:21,940 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-26 09:04:22,118 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:04:22,119 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:04:22,120 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:22,121 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:22,124 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:04:22,125 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:04:22,125 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:22,410 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:04:22,410 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:04:22,412 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:22,413 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:22,414 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:04:22,414 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:04:22,415 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:32,833 [Worker-47: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma
+2022-10-26 09:04:32,834 [Worker-47: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:04:32,834 [Worker-47: Launching New_configuration] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:04:33,117 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:04:33,183 [Worker-49: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:04:33,247 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:04:33,247 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:04:33,247 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:33,248 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:04:33,250 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:04:33,250 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:04:33,251 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:08,061 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:06:08,061 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:06:08,061 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:08,062 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:08,064 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:06:08,064 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:06:08,065 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:16,798 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:06:16,799 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:06:16,799 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:16,800 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:06:16,807 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:06:16,807 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:06:16,808 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:37,245 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:06:37,245 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:06:37,245 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:37,245 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:06:37,248 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:06:37,248 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:06:37,248 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:07:14,952 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:07:14,952 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:07:14,952 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:07:14,952 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:07:14,958 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:07:14,958 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:07:14,958 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:13:26,598 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:13:26,611 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.nttdata.bootcamp:saludo-idioma:jar:0.0.1-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-10-26 09:13:26,616 [Worker-56: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:13:26,682 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:26,682 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:26,683 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:13:26,685 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:13:26,688 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:26,688 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:26,689 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:13:27,963 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:13:28,090 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:28,090 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:28,091 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:13:28,092 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:13:28,097 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:28,097 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:28,097 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:13:29,067 [Worker-57: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.nttdata.bootcamp:saludo-idioma:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2022-10-26 09:13:31,097 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:31,097 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:31,098 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:13:31,099 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:13:31,105 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:31,105 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:31,105 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:13:51,331 [Worker-51: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\pom.xml.
+2022-10-26 09:13:51,475 [Worker-51: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/main/java
+2022-10-26 09:13:51,475 [Worker-51: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:13:51,479 [Worker-51: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:13:51,483 [Worker-51: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/test/java
+2022-10-26 09:13:51,539 [Worker-51: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-26 09:13:51,764 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:51,764 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:51,765 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:13:51,776 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:13:51,779 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:13:51,780 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:13:51,780 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\src\test\resources
+2022-10-26 09:14:00,937 [Worker-55: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:14:00,987 [Worker-55: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:14:01,043 [Worker-55: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/main/java
+2022-10-26 09:14:01,043 [Worker-55: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 09:14:01,046 [Worker-55: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 09:14:01,050 [Worker-55: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/test/java
+2022-10-26 09:14:01,132 [Worker-55: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-26 09:14:01,335 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:14:01,335 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:14:01,336 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:14:01,336 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:14:01,342 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:14:01,342 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:14:01,343 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:14:53,620 [Worker-57: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-26 09:14:53,908 [Worker-57: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\pom.xml.
+2022-10-26 09:14:53,940 [Worker-57: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\pom.xml.
+2022-10-26 09:14:53,984 [Worker-57: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:14:54,174 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/main/java
+2022-10-26 09:14:54,175 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:14:54,175 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-idioma/src/main/resources
+2022-10-26 09:14:54,176 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-idioma/src/test/java
+2022-10-26 09:14:54,205 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/main/java
+2022-10-26 09:14:54,205 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 09:14:54,206 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-spring-autoconfigure/src/main/resources
+2022-10-26 09:14:54,206 [Worker-57: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-spring-autoconfigure/src/test/java
+2022-10-26 09:14:54,355 [Worker-57: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-26 09:14:54,515 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:14:54,516 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:14:54,516 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:14:54,525 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:14:54,528 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:14:54,528 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:14:54,528 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\src\test\resources
+2022-10-26 09:14:54,862 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:14:54,862 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:14:54,862 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:14:54,862 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:14:54,870 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:14:54,870 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:14:54,870 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:16:03,692 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:16:03,692 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:16:03,693 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:16:03,697 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:16:03,699 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:16:03,700 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:16:03,700 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\src\test\resources
+2022-10-26 09:16:11,593 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:16:11,593 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:16:11,594 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:16:11,595 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:16:11,598 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:16:11,598 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:16:11,598 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:17:42,694 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:17:42,695 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:17:42,696 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:17:42,697 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:17:42,700 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:17:42,700 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:17:42,700 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:20:01,680 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:20:01,680 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:20:01,704 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:20:01,709 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:20:01,712 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:20:01,712 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:20:01,712 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\src\test\resources
+2022-10-26 09:25:30,621 [Worker-61: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:25:31,098 [Worker-61: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-starter/src/main/java
+2022-10-26 09:25:31,098 [Worker-61: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-starter/src/main/resources
+2022-10-26 09:25:31,102 [Worker-61: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-starter/src/main/resources
+2022-10-26 09:25:31,105 [Worker-61: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-starter/src/test/java
+2022-10-26 09:25:31,297 [Worker-61: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-26 09:25:31,533 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:25:31,533 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:25:31,533 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:25:31,536 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:25:31,539 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:25:31,540 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:25:31,540 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:27:58,301 [Worker-63: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:28:18,135 [Worker-62: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter
+2022-10-26 09:28:18,136 [Worker-62: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:28:18,136 [Worker-62: Launching New_configuration] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:29:45,000 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:29:45,000 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:29:45,001 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:29:45,003 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:29:45,006 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:29:45,006 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:29:45,006 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\src\test\resources
+2022-10-26 09:29:45,050 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:29:45,050 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:29:45,050 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:29:45,050 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:29:45,055 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:29:45,055 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:29:45,056 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure\src\test\resources
+2022-10-26 09:30:03,087 [Worker-64: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma
+2022-10-26 09:30:03,088 [Worker-64: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:30:03,088 [Worker-64: Launching New_configuration] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:30:03,219 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:30:03,297 [Worker-67: Building] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Could not read maven project
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$3(MavenImpl.java:433) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:424) ~[na:na]
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568) ~[na:na]
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:364) ~[na:na]
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:227) ~[na:na]
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:857) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:827) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:982) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:323) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:150) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:87) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.200.v20220817-1601.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.200.v20220817-1601.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter: C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter (Acceso denegado) @ 
+ for project  at C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180) ~[na:na]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$3(MavenImpl.java:431) ~[na:na]
+	... 35 common frames omitted
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter: C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter (Acceso denegado) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197) ~[na:na]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:687) ~[na:na]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:303) ~[na:na]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:267) ~[na:na]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:173) ~[na:na]
+	... 37 common frames omitted
+2022-10-26 09:30:15,953 [Worker-62: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-spring-autoconfigure
+2022-10-26 09:30:15,954 [Worker-62: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:30:15,954 [Worker-62: Launching New_configuration] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:30:54,710 [Worker-64: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter
+2022-10-26 09:30:54,711 [Worker-64: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:30:54,711 [Worker-64: Launching New_configuration] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:33:22,460 [Worker-65: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:33:22,972 [Worker-65: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-starter/src/main/java
+2022-10-26 09:33:22,972 [Worker-65: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-starter/src/main/resources
+2022-10-26 09:33:22,976 [Worker-65: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /saludo-starter/src/main/resources
+2022-10-26 09:33:22,980 [Worker-65: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /saludo-starter/src/test/java
+2022-10-26 09:33:23,160 [Worker-65: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-26 09:33:23,373 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:33:23,373 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:33:23,373 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:33:23,375 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:33:23,377 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:33:23,377 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:33:23,377 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:33:52,219 [Worker-62: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter
+2022-10-26 09:33:52,219 [Worker-62: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:33:52,219 [Worker-62: Launching clean install] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:34:24,269 [Worker-68: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:34:24,498 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:34:24,498 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:34:24,498 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:34:24,498 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:34:24,501 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:34:24,501 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:34:24,501 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:34:25,848 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:34:25,848 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:34:25,849 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:34:25,851 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:34:25,853 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:34:25,853 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:34:25,853 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:35:48,322 [Worker-62: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:35:48,360 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.nttdata.bootcamp:temperatura-spring-autoconfigure:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2022-10-26 09:35:48,361 [Worker-62: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier  to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:35:48,363 [Worker-62: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:35:48,422 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:35:48,422 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:35:48,422 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:35:48,422 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:35:48,425 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:35:48,425 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:35:48,425 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:35:49,467 [Worker-63: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.nttdata.bootcamp:temperatura-spring-autoconfigure:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.nttdata.bootcamp:temperatura-spring-autoconfigure:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2022-10-26 09:36:03,855 [Worker-69: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:saludo-starter:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\pom.xml.
+2022-10-26 09:36:03,893 [Worker-69: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier  to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:36:03,895 [Worker-69: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:36:03,950 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:36:03,950 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:36:03,950 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:36:03,950 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:36:03,953 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:36:03,953 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:36:03,953 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:36:05,094 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:36:05,094 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:36:05,095 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:36:05,097 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:36:05,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:36:05,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:36:05,099 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:36:10,613 [Worker-61: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter
+2022-10-26 09:36:10,614 [Worker-61: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:36:10,614 [Worker-61: Launching clean install] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:37:45,849 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:37:45,849 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:37:45,850 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:37:45,850 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:37:45,853 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:37:45,853 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:37:45,853 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-starter\src\test\resources
+2022-10-26 09:40:33,415 [Worker-63: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:pruebasClientes:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\pom.xml.
+2022-10-26 09:40:33,928 [Worker-63: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebasClientes/src/main/java
+2022-10-26 09:40:33,928 [Worker-63: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebasClientes/src/main/resources
+2022-10-26 09:40:33,931 [Worker-63: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebasClientes/src/main/resources
+2022-10-26 09:40:33,935 [Worker-63: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebasClientes/src/test/java
+2022-10-26 09:40:34,157 [Worker-63: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-26 09:40:34,485 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:40:34,485 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:40:34,485 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:40:34,487 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:40:34,490 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:40:34,490 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:40:34,490 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:41:33,139 [Worker-71: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.nttdata.bootcamp:pruebasClientes:0.0.1-SNAPSHOT @ C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\pom.xml.
+2022-10-26 09:41:33,238 [Worker-71: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier  to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:41:33,239 [Worker-71: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier  to /saludo-idioma/target/classes
+2022-10-26 09:41:33,428 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:41:33,428 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:41:33,428 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:41:33,428 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:41:33,431 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:41:33,431 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:41:33,431 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:41:34,560 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.7.5/spring-boot-configuration-processor-2.7.5-sources.jar
+2022-10-26 09:41:34,599 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.7.5/spring-boot-configuration-processor-2.7.5-sources.jar
+2022-10-26 09:41:34,602 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:2.7.5
+2022-10-26 09:41:35,001 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:41:35,002 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:41:35,002 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:41:35,005 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:41:35,008 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:41:35,008 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:41:35,008 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:41:49,081 [Worker-63: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes
+2022-10-26 09:41:49,082 [Worker-63: Launching clean install] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always -gs C:\dev\Environment\Maven386\conf\settings.xml -s C:\dev\Environment\Maven386\conf\settings.xml clean install
+2022-10-26 09:41:49,082 [Worker-63: Launching clean install] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2022-10-26 09:46:05,787 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:46:05,787 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:46:05,788 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:46:05,792 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:46:05,795 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:46:05,795 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:46:05,796 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:48:31,546 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:48:31,546 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:48:31,548 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:48:31,553 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:48:31,556 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:48:31,556 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:48:31,557 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:48:32,623 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:48:32,623 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:48:32,624 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:48:32,629 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:48:32,631 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:48:32,631 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:48:32,631 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\saludo-idioma\saludo-idioma\src\test\resources
+2022-10-26 09:48:58,409 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:48:58,409 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:48:58,409 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:48:58,413 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:48:58,415 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:48:58,416 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:48:58,416 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:49:12,278 [Worker-76: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier null to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:49:12,279 [Worker-76: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier null to /saludo-idioma/target/classes
+2022-10-26 09:49:12,372 [Worker-76: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier null to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:49:12,373 [Worker-76: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier null to /saludo-idioma/target/classes
+2022-10-26 09:49:12,463 [Worker-76: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier null to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:49:12,464 [Worker-76: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier null to /saludo-idioma/target/classes
+2022-10-26 09:51:32,951 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:51:32,951 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:51:32,951 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:51:32,954 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:51:32,957 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:51:32,957 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:51:32,957 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:51:53,571 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:51:53,571 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:51:53,571 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-10-26 09:51:53,579 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 09:51:53,582 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-26 09:51:53,582 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-26 09:51:53,582 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\dev\Workspace\TerceraClaseMicroservicios\pruebasClientes\src\test\resources
+2022-10-26 09:52:03,331 [Worker-72: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier null to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:52:03,332 [Worker-72: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier null to /saludo-idioma/target/classes
+2022-10-26 09:52:03,429 [Worker-72: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-spring-autoconfigure: com.nttdata.bootcamp:saludo-spring-autoconfigure:0.0.1-SNAPSHOT with classifier null to /saludo-spring-autoconfigure/target/classes
+2022-10-26 09:52:03,430 [Worker-72: Launching PruebasClientesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/saludo-idioma: com.nttdata.bootcamp:saludo-idioma:0.0.1-SNAPSHOT with classifier null to /saludo-idioma/target/classes
